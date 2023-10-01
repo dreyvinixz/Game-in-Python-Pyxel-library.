@@ -59,7 +59,7 @@ class Game:
         # chamo as imagens usadas para meu jogo
         px.image(0).load(0, 0, "pixel_npc_red_animation.jpg")
         px.image(1).load(0, 0, "oryx_creatures_preview_2x.gif")
-        px.image(2).load(0, 0, "pixel_npc_red_animation1.png")
+        px.image(2).load(0, 0, "portions_and_super_atacks.png")
         px.run(self.update, self.draw)
 
     def update(self):

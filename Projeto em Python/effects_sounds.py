@@ -45,7 +45,7 @@ class Sound_Track():
         # soud pygame
         pg.mixer.init()
         self.sound_track = pg.mixer.Sound(
-            "WhatsApp-Audio-2023-09-18-at-19.01.28.mp3")
+            "Projeto em Python/soud_track.mp3")
         self.sound_track.set_volume(volume)
 
     # função para iniciar minha musica
